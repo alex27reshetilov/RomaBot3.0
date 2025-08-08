@@ -1,6 +1,1 @@
-{ pkgs }: {
-    deps = [
-        pkgs.python311
-        pkgs.python311Packages.pip
-    ];
-}
+run = "python3 zvonilka.py"
